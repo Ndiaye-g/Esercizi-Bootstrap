@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS_2.2 - Bootstrap Colors</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .answer-box {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #0d6efd;
+        }
+        .color-demo {
+            padding: 8px;
+            margin: 5px 0;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">BTS_2.2 - Bootstrap Colors</h1>
+        
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="answer-box">
+                    <h3>Classi di colore del testo</h3>
+                    <dl>
+                        <dt><span class="text-muted">.text-muted</span></dt>
+                        <dd>Testo attenuato/grigio</dd>
+                        
+                        <dt><span class="text-primary">.text-primary</span></dt>
+                        <dd>Colore primario (blu)</dd>
+                        
+                        <dt><span class="text-success">.text-success</span></dt>
+                        <dd>Indica successo (verde)</dd>
+                        
+                        <dt><span class="text-info">.text-info</span></dt>
+                        <dd>Per informazioni (azzurro)</dd>
+                        
+                        <dt><span class="text-warning">.text-warning</span></dt>
+                        <dd>Per avvisi (giallo/arancione)</dd>
+                        
+                        <dt><span class="text-danger">.text-danger</span></dt>
+                        <dd>Per pericolo/errori (rosso)</dd>
+                        
+                        <dt><span class="text-secondary">.text-secondary</span></dt>
+                        <dd>Colore secondario (grigio)</dd>
+                        
+                        <dt><span class="text-white bg-dark">.text-white</span></dt>
+                        <dd>Testo bianco</dd>
+                        
+                        <dt><span class="text-dark">.text-dark</span></dt>
+                        <dd>Testo scuro</dd>
+                        
+                        <dt><span class="text-body">.text-body</span></dt>
+                        <dd>Colore del corpo (default)</dd>
+                        
+                        <dt><span class="text-light bg-dark">.text-light</span></dt>
+                        <dd>Testo chiaro</dd>
+                    </dl>
+                </div>
+            </div>
+            
+
+            <div class="col-md-6">
+                <div class="answer-box">
+                    <h3>Colori di sfondo</h3>
+                    <div class="color-demo bg-muted">.bg-muted</div>
+                    <div class="color-demo bg-primary text-white">.bg-primary</div>
+                    <div class="color-demo bg-success text-white">.bg-success</div>
+                    <div class="color-demo bg-info text-dark">.bg-info</div>
+                    <div class="color-demo bg-warning text-dark">.bg-warning</div>
+                    <div class="color-demo bg-danger text-white">.bg-danger</div>
+                    <div class="color-demo bg-secondary text-white">.bg-secondary</div>
+                    <div class="color-demo bg-white text-dark border">.bg-white</div>
+                    <div class="color-demo bg-dark text-white">.bg-dark</div>
+                    <div class="color-demo bg-body text-dark border">.bg-body</div>
+                    <div class="color-demo bg-light text-dark">.bg-light</div>
+                </div>
+                
+                <div class="answer-box">
+                    <h3>Testo con opacità</h3>
+                    <p class="text-black-50">Questo testo ha opacità al 50%</p>
+                    
+                    <h4 class="mt-3">Testo bianco con opacità su sfondo warning</h4>
+                    <div class="bg-warning p-3">
+                        <p class="text-white-50 mb-0">Questo testo bianco ha opacità al 50% su sfondo warning</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

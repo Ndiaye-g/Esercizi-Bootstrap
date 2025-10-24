@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS_2.1 - Bootstrap Typography</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .answer-box {
+            background-color: #f8f9fa;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #0d6efd;
+        }
+        .demo-box {
+            background-color: #e9ecef;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">BTS_2.1 - Bootstrap Typography</h1>
+        
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="answer-box">
+                    <h3>Dimensione testo default</h3>
+                    <p>La dimensione del testo di default di Bootstrap è <strong>16px</strong>.</p>
+                </div>
+                
+                <div class="answer-box">
+                    <h3>Font di default</h3>
+                    <p>Il font di default di Bootstrap è <strong>"Helvetica Neue", Helvetica, Arial, sans-serif</strong>.</p>
+                </div>
+                
+                <div class="answer-box">
+                    <h3>Margini paragrafo</h3>
+                    <p>I margini superiore e inferiore di un paragrafo sono <strong>margin-top: 0</strong> e <strong>margin-bottom: 1rem</strong>.</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="answer-box">
+                    <h3>Elementi speciali</h3>
+                    <div class="demo-box">
+                        <dl>
+                            <dt>Termine 1</dt>
+                            <dd>Descrizione del termine 1</dd>
+                            <dt>Termine 2</dt>
+                            <dd>Descrizione del termine 2</dd>
+                        </dl>
+                        
+                        <blockquote class="blockquote">
+                            <p>Questa è una citazione importante.</p>
+                            <footer class="blockquote-footer">Autore della citazione</footer>
+                        </blockquote>
+                        
+                        <p>L'<abbr title="HyperText Markup Language">HTML</abbr> è il linguaggio di markup web.</p>
+                        
+                        <p>Questo testo contiene una parte <mark>evidenziata</mark>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="answer-box">
+                    <h3>Stili di testo</h3>
+                    
+                    <div class="demo-box">
+                        <p class="fw-bold">Questo testo è in grassetto (Bold)</p>
+                        <p class="fst-italic">Questo testo è in corsivo (Italic)</p>
+                        <p class="fw-light">Questo testo è leggero (Light)</p>
+                        <p class="text-center">Questo testo è centrato</p>
+                        <p class="text-end">Questo testo è allineato a destra</p>
+                    </div>
+                    
+                    <h4 class="mt-3">Lista inline (cose che mi fanno innervosire)</h4>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">Traffico</li>
+                        <li class="list-inline-item">Codice che non compila</li>
+                        <li class="list-inline-item">Batteria del telefono scarica</li>
+                        <li class="list-inline-item">File che non si salvano</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
